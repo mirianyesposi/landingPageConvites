@@ -1,0 +1,10 @@
+.header {
+    background-color: #d4a373;
+    padding: 20px;
+    text-align: center;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,25 +1,23 @@
 import React from 'react';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import Features from './components/Features';
-import Gallery from './components/Gallery';
-import Testimonials from './components/Testimonials';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
-import './styles.css';
+import Header from './components/Header/Header';
+import Services from './components/Services/Services';
+import CustomizeInvite from './components/CustomizeInvite/CustomizeInvite';
+import Gallery from './components/Gallery/Gallery';
+import Testimonials from './components/Testimonials/Testimonials';
+import Contact from './components/Contact/Contact';
+import './App.css';
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <HeroSection />
-      <Features />
-      <Gallery />
-      <Testimonials />
-      <ContactForm />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Services />
+            <CustomizeInvite />
+            <Gallery />
+            <Testimonials />
+            <Contact />
+        </div>
+    );
 }
 
 export default App;
