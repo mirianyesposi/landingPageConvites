@@ -1,5 +1,82 @@
 .services {
-    background-color: #f1e4d1;
-    padding: 40px;
+    padding: 50px 20px;
     text-align: center;
+    font-family: 'Georgia', serif;
+    color: #644d3c;
+    min-height: 100vh;
+}
+
+.main {
+    background-image: url(../../assets/header.png);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.services h1 {
+    font-size: 5rem;
+    color: #8a6e5d;
+    text-align: left;
+    text-wrap: wrap;
+    width: 40%;
+    font-family: 'Times New Roman', Times, sans-serif;   
+}
+
+ .titulo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.subtitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.services p {
+    font-size: 1.1rem;
+    color: #7a5f4b;
+}
+
+.header {
+    display:flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+}
+
+.header h1 {
+    color: #8a6e5d;
+    font-weight: bold;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.header nav li {
+    color: #8a6e5d;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header nav li:hover {
+    color: #644d3c;
+}
+
+.button, a{
+    text-decoration: none;
+    color: white;
+    background-color: #3b2a21;
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Georgia', serif;
 }
